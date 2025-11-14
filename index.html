@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="#"><img src="icons/logo01.jpg" width="80px" style="border-radius: 40px;"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-5 ">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="#new-in">New In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#unstitched">Unstitched</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#winter-edit">Winter Edit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#bridals">Bridals</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li> -->
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <form>
+                    <button class="btn btn-outline-primary " type="submit">Sign up</button>
+                    <button class="btn btn-outline-primary" type="submit">log in</button>
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <!-- carousel -->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/main01.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item active">
+                <img src="images/main02.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item active">
+                <img src="images/main03.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+            <div class="carousel-item active">
+                <img src="images/main04.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- card new in -->
+    <section id="new-in">
+        <div class="new-in">
+            <h2>"new in"</h2>
+            <p>
+                The new design fabrics feature modern patterns and vibrant colors that reflect the latest fashion
+                trends.
+                <br> They offer a perfect blend of elegance and comfort, making every outfit stand out beautifully.
+            </p>
+            <h4>(20)"products"</h4>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/femail01.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>46,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail02.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>46,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail03.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>26,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail04.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>115,000</i></small>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/femail05.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>32,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail06.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>69,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail07.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>52,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail08.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>34,000</i></small>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/femail09.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>36,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail010.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>95,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail011.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>135,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail012.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>48,000</i></small>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/femail013.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>79,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail014.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>32,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail015.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>125,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail016.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>34,000</i></small>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/femail017.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>48,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail018.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>158,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail019.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>42,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail020.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>85,000</i></small>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="card-group">
+            <div class="card">
+                <img src="images/femail021.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>18,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail022.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>32,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail023.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>65,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail024.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>34,000</i></small>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/femail025.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>120,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail026.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>48,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail027.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>34,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/femail028.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>22,000</i></small>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <!-- unstitched -->
+    <section id="unstitched">
+        <div class="unstitched">
+            <h2>"unstitched"</h2>
+            <p>Unstitched cloth is fabric that comes without stitching and can be tailored according to your style and
+                size.
+                <br> It is a unique and elegant choice suitable for every season and occasion.
+            </p>
+            <h4>(16)"products"</h4>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/un001.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>21,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/un002.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>24,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/un003.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>18,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/un004.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>17,500</i></small>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/un005.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>14,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/un006.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>21,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/un007.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>21,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/un008.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>21,500</i></small>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/un009.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>14,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/un0010.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>18,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/un0011.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>22,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/un0012.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>23,500</i></small>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/un0013.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>23,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/un0014.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>18,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/un0015.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>24,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/un0016.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>18,500</i></small>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="card-group">
+            <div class="card">
+                <img src="images/un0017.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>23,100</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/un0018.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>16,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/un0019.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>20,400</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/un0020.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>21,500</i></small>
+                </div>
+            </div>
+        </div> -->
+
+    </section>
+    <!-- winter edit -->
+    <section id="winter-edit">
+        <div class="winter-edit">
+            <h2>"winter edit"</h2>
+            <p>
+                They come in various styles and fabrics, such as wool, leather, and fleece, combining fashion with
+                warmth during winter days.
+                <br>They keep us warm and cozy all day.
+            </p>
+            <h4>(20)"products"</h4>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/we01.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>39,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/we02.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>26,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/we03.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>68,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/we04.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>35,000</i></small>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/we05.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>35,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/we06.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>155,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/we07.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>365,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/we08.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>497,500</i></small>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/we09.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>433,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/we010.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>280,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/we011.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>240,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/we012.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>558,000</i></small>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/we013.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>442,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/we014.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>220,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/we015.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>497,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/we016.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>188,500</i></small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- bridals -->
+    <section id="bridals">
+        <div class="bridals">
+            <h2>"bridals"</h2>
+            <p>Discover the elegance of our exclusive bridal collection — where every dress tells a story of love,
+                beauty, and timeless grace. <br>Bridal clothes are a symbol of beauty and tradition, making the bride
+                look elegant and graceful on her special day.
+            </p>
+            <h4>(12)"products"</h4>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/br01.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>1,010,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/br02.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>595,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/br03.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>595,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/br04.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>665,000</i></small>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/br05.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>1,157,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/br06.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>1,400,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/br07.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>1,450,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/br08.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>2,900,000</i></small>
+                </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+                <img src="images/br09.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>1,126,500</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/br010.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>1,261,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/br011.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary">RS. <i>345,000</i></small>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/br012.jpg" class="card-img-top" alt="...">
+                <div class="card-footer">
+                    <small class="text-body-secondary ">RS. <i>710,000</i></small>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="card">
+            <div class="card-header">
+                <p>© 2025 GlamWear. Designed with 💖 by <br><b>Hamza Ansari</b></p>
+                <div class="container text-center">
+                    <div class="row align-items-start">
+                        <div class="col">
+                            <h5>Contect</h5>
+                        </div>
+                        <div class="col">
+                            <h5>Social</h5>
+                        </div>
+                         <div class="col">
+                            <h5>Customer Info</h5>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container text-center">
+                    <div class="row align-items-start">
+                        <div class="col">
+                            <img src="icons/call.jpg"width="30px" alt="">
+                            <a href="tel:+923368097896"target="blank">Call Now</a>
+                        </div>
+                        <div class="col">
+                            <img src="icons/whatapp.jpg" width="35px" alt="">
+                            <a href="https://wa.me/923368097896?text=Hello" target="blank">Whatapps</a>
+                        </div>
+                          <div class="col">
+                            <p>
+                              <i>exchanges & refunds</i>  
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container text-center">
+                    <div class="row align-items-start">
+                        <div class="col">
+                            <img src="icons/email.jpg"width="35px" alt="">
+                            <a href="https://mailto:hamza.aiet.student@gmail.com" target="blank">Email me</a>
+                        </div>
+                        <div class="col">
+                            <img src="icons/github.jpg" width="35px" alt="">
+                            <a href="https://github.com/hamza1264" target="blank">Github</a>
+                        </div>
+                          <div class="col">
+                            <i>privacy</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="container text-center">
+                    <div class="row align-items-start">
+                        <div class="col">
+                            <address>
+                                <img src="icons/location.jpg"width="35px" alt="">
+                                <a href="https://maps.app.goo.gl/rDQ1UBuLCUxJCmFU9" target="_blank">location</a>
+                            </address>
+                        </div>
+                        <div class="col">
+                            <img src="icons/linkedin.jpg" width="40px" alt="">
+                            <a href="https://www.linkedin.com/in/hamza-ansari-a42a80378?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                                target="blank">linkedin</a>
+                        </div>
+                          <div class="col">
+                            <i>terms & conditions</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="container text-center">
+                    <div class="row align-items-start">
+                        <div class="col">
+
+                        </div>
+                        <div class="col">
+                            <img src="icons/facebook.jpg " width="30px" alt="">
+                            <a href="https://www.facebook.com/share/p/1BkSAmU87A/" target="blank">Facebook</a>  
+                        </div>
+                          <div class="col">
+                            <i>FAQs</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
